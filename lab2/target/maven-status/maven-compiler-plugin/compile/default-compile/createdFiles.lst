@@ -1,0 +1,16 @@
+com\sumingjie\client\CreatePictureResponse.class
+com\sumingjie\client\UpdatePictureResponse.class
+com\sumingjie\client\GetAllPicturesResponse.class
+com\sumingjie\client\Picture.class
+com\sumingjie\client\DeletePictureResponse.class
+com\sumingjie\client\UpdatePicture.class
+com\sumingjie\client\MyRequest.class
+com\sumingjie\client\CreatePicture.class
+com\sumingjie\client\ObjectFactory.class
+com\sumingjie\client\package-info.class
+com\sumingjie\client\FindPictures.class
+com\sumingjie\client\PictureService.class
+com\sumingjie\client\FindPicturesResponse.class
+com\sumingjie\client\PictureWebService.class
+com\sumingjie\client\DeletePicture.class
+com\sumingjie\client\GetAllPictures.class
