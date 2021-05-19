@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is JAX-WS RI 2.2.9-b130926.1035 svn-revision#5f6196f2b90e9460065a4c2f4e30e065b245e51e. --><xs:schema xmlns:tns="http://service.sumingjie.com/" xmlns:ns1="http://service.sumingjie.com" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://service.sumingjie.com/">
+
+<xs:import namespace="http://service.sumingjie.com" schemaLocation="http://localhost:8080/PictureService?xsd=2"></xs:import>
+
+<xs:element name="findPictures" type="tns:findPictures"></xs:element>
+
+<xs:element name="findPicturesResponse" type="tns:findPicturesResponse"></xs:element>
+
+<xs:element name="getAllPictures" type="tns:getAllPictures"></xs:element>
+
+<xs:element name="getAllPicturesResponse" type="tns:getAllPicturesResponse"></xs:element>
+
+<xs:complexType name="getAllPictures">
+<xs:sequence></xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getAllPicturesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:picture" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="picture">
+<xs:sequence>
+<xs:element name="author" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="height" type="xs:float"></xs:element>
+<xs:element name="id" type="xs:int"></xs:element>
+<xs:element name="material" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="name" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="width" type="xs:float"></xs:element>
+<xs:element name="year" type="xs:int"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findPictures">
+<xs:sequence>
+<xs:element name="q" type="tns:myRequest" minOccurs="0"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="myRequest">
+<xs:sequence>
+<xs:element name="id" type="xs:int"></xs:element>
+<xs:element name="name" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="author" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="year" type="xs:int"></xs:element>
+<xs:element name="material" type="xs:string" minOccurs="0"></xs:element>
+<xs:element name="height" type="xs:float"></xs:element>
+<xs:element name="width" type="xs:float"></xs:element>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="findPicturesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:picture" minOccurs="0" maxOccurs="unbounded"></xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
