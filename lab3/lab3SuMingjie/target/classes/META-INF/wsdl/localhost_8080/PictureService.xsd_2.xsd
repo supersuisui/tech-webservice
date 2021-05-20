@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.1.5-hudson-$BUILD_NUMBER-. --><xs:schema xmlns:ns1="http://service.sumingjie.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://service.sumingjie.com">
-
-<xs:import namespace="http://service.sumingjie.com/" schemaLocation="http://localhost:8080/PictureService?xsd=1" />
-
-<xs:element name="MyRequest" type="ns1:myRequest" />
-
-</xs:schema>
