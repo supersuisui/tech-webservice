@@ -1,0 +1,8 @@
+com\sumingjie\client\App$1.class
+com\sumingjie\client\App.class
+com\sumingjie\Service\PictureResource.class
+com\sumingjie\Service\App.class
+com\sumingjie\Service\ConnectionUtil.class
+com\sumingjie\Service\Picture.class
+com\sumingjie\Service\PostgreSQLDAO.class
+com\sumingjie\client\Picture.class
